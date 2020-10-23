@@ -1,0 +1,11 @@
+<div class="sidebar-view-subblog">
+    <div style="color: #343a40; font-weight: bold">Browse Topics</div>
+    <hr />
+    <span *ngFor="let subblog of subblogs">
+        <span class="subblog-text"><a href="/view-subblog/{{subblog.id}}" style="color: #20c997">{{subblog.name}}</a></span>
+        <hr />
+    </span>
+    <div style="text-align: center" *ngIf="displayViewAll">
+        <a style="color: #20c997; font-weight: bold" routerLink="/list-subblogs">View All</a>
+    </div>
+</div>

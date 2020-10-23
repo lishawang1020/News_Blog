@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row">
+      <div class="create-subblog-container">
+        <form class="post-form" [formGroup]="createSubblogForm" (ngSubmit)="createSubblog()">
+          <div class="form-group">
+            <div class="create-subblog-heading">Create Topic</div>
+            <hr />
+            <input type="text" [formControlName]="'title'" class="form-control" style="margin-top: 5px"
+              placeholder="Title">
+            <textarea type="text" [formControlName]="'description'" style="width: 100%; margin-top: 5px"
+              placeholder="Description"></textarea>
+            <div>
+              <div style="margin-top: 5px" class="float-right">
+                <button (click)="discard()" class="btnDiscard">Discard</button>
+                <button class="btnCreateSubblog">Create</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>

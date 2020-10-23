@@ -1,0 +1,66 @@
+.create-subblog-container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 10px;
+    --post-line-color: #ccc;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #878A8C;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  
+  .create-subblog-heading {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #1c1c1c;
+    -ms-flex: 1;
+    flex: 1;
+  }
+  
+  .btnCreateSubblog {
+    background-color: #20c997;
+    border-color: #20c997;
+    color: aliceblue;
+    fill: #20c997;
+    border: 1px solid;
+    border-radius: 4px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 3px 16px;
+    opacity: 1;
+    width: 288px;
+    height: 34px;
+  }
+  
+  .btnDiscard {
+    fill: #20c997;
+    border: 1px solid;
+    border-radius: 4px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 3px 16px;
+    opacity: 1;
+    width: 288px;
+    height: 34px;
+    margin-top: 5px;
+    color: #20c997;
+    background-color: transparent;
+  }
