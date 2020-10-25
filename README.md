@@ -14,6 +14,10 @@ Signup Page
 
 <img src="screenshots/register.png" width="600" height="350">
 
+User Profile Page
+
+<img src="screenshots/profile.png" width="600" height="350">
+
 Create Topic Page
 
 <img src="screenshots/create_topic.png" width="600" height="350">
