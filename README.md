@@ -1,1 +1,1 @@
-# News_Blog
+# "Now!" News Blog
